@@ -1,5 +1,7 @@
 # dsh-hcom
 
+English | [简体中文](README.zh-CN.md)
+
 Local agent messaging for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness), powered by [hcom](https://github.com/aannoo/hcom). hcom is developed by its upstream maintainers; this project is a separate DSH adapter.
 
 ## Install

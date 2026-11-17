@@ -1,6 +1,7 @@
 /*
 !/.gitignore
 !/README.md
+!/README.zh-CN.md
 !/LICENSE
 !/package.json
 !/cordis.patch.yml
