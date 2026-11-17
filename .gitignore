@@ -1,0 +1,9 @@
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/package.json
+!/cordis.patch.yml
+!/src/
+/src/*
+!/src/index.js

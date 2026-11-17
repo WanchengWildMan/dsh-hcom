@@ -1,0 +1,15 @@
+{
+  "name": "dsh-hcom",
+  "version": "0.1.0",
+  "description": "Local hcom messaging tools for DeepSeek Harness",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.js",
+  "files": ["src/index.js", "cordis.patch.yml"],
+  "repository": "github:WanchengWildMan/dsh-hcom",
+  "keywords": ["dsh-plugin", "deepseek-harness", "hcom", "cordis"],
+  "engines": { "node": ">=24" },
+  "peerDependencies": { "@deepseek-ai/dsh-tools": "*" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "scripts": { "test": "node --check src/index.js" }
+}
