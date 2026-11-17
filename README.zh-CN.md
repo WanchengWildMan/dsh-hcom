@@ -2,7 +2,7 @@
 
 [English](README.md) | 简体中文
 
-为 [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/deepseek-harness) 提供本机智能体消息收发。插件基于 [hcom](https://github.com/aannoo/hcom)，由本项目独立维护。
+让 [DeepSeek Harness（DSH）](https://github.com/deepseek-ai/deepseek-harness) 会话和同一台机器上已接入 [hcom](https://github.com/aannoo/hcom) 的 Claude Code、Codex 等会话互发消息。例如，你可以让 DSH 问 Claude Code 一个 Bug 怎么复现，再在 DSH 里收取对方的回复，省去来回复制。插件由本项目独立维护。
 
 ## 安装
 
